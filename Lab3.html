@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+
+	<title>page</title>
+	<script>
+		alert("請輸入一個一到十的數字");
+		var rand = Math.floor((Math.random()*10)+1);
+		var number = window.prompt("請輸入一個一到十的數字");
+		while(rand!=number){
+			alert("遊戲結束");
+			var number = window.prompt("請輸入一個一到十的數字");
+		}
+		alert("點擊F5再玩一次");
+	</script>
+</head>
+<body>
+	
+	
+</body>
+</html>
